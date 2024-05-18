@@ -1,0 +1,26 @@
+a=2
+b=3
+
+#1->
+temp=a
+a=b
+b=temp
+
+'''
+Different Methods
+2->
+a=a+b
+b=a-b
+a=a-b
+
+3->
+a=a^b
+b=a^b
+a=a^b
+
+4->
+a,b=b,a'''
+
+
+print("the value a after swapping:", a)
+print("the value b after swapping:", b)
