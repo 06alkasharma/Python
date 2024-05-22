@@ -1,0 +1,12 @@
+
+# find the value of x
+num=[1,4,6,7,9,12,15,43,66,89,100]
+x=43
+i=0
+while i<len(num):
+   if(num[i]==x):
+       print("found at idx: ",i)
+       break
+   i+=1
+else:
+    print("not find")
