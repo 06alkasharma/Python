@@ -1,0 +1,6 @@
+x=int(input("enter a value of n :"))
+def converter(usd_val):
+    inr_val=0
+    inr_val=usd_val*85
+    print(usd_val,"USD=",inr_val,"INR")
+print(converter(x))
