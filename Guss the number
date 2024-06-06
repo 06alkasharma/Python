@@ -1,0 +1,19 @@
+# Guss the Number
+import random
+target = random.randint(1,100)
+
+while True:
+    userChoice = input("guss the target or Quit(Q):")
+    if(userChoice == "Q"):
+        break
+    
+    userChoice = int(userChoice)
+    if (userChoice == target):
+        print("success : correct guss!!")
+        break
+    elif(userChoice < target):
+        print("your number was too small.Take a bigger number guss...")
+    else:
+        print("your number was too big.Take a smaller number guss...")
+print("......Game Over......")  
+
